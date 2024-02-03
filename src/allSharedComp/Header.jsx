@@ -13,7 +13,7 @@ function Header() {
   const handleLogout = () => {
     axios({
       method: "post",
-      url: "http://localhost:5000/logout",
+      url: "https://user-management-server-hazel.vercel.app/logout",
       withCredentials: true,
     }).then((res) => {
       if (res.data?.message) {

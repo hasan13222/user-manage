@@ -38,7 +38,7 @@ const SignUp = () => {
             userAge,
             proflePhoto: data.data.data.display_url
         }
-        axios.post("http://localhost:5000/signup", userInfo).then((res) => {
+        axios.post("https://user-management-server-hazel.vercel.app/signup", userInfo).then((res) => {
           if (res.data?.success === false) {
             setSignupError(res.data.message)
           } else {

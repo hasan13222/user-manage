@@ -13,7 +13,7 @@ const AuthProvider = ({children}) => {
         setLoading(true);
         axios({
             method: 'get',
-            url: 'http://localhost:5000/isLogin',
+            url: 'https://user-management-server-hazel.vercel.app/isLogin',
             withCredentials: true  
           })
         .then(res => {

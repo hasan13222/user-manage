@@ -32,7 +32,7 @@ const EditUser = () => {
         }
         axios({
             method: "patch",
-            url: "http://localhost:5000/user-info",
+            url: "https://user-management-server-hazel.vercel.app/user-info",
             data: userInfo,
             withCredentials: true,
           })

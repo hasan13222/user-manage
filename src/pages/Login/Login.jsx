@@ -20,7 +20,7 @@ const Login = () => {
 
     axios({
       method: "post",
-      url: "http://localhost:5000/login",
+      url: "https://user-management-server-hazel.vercel.app/login",
       data: { email, password },
       withCredentials: true,
     }).then((res) => {
