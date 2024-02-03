@@ -1,0 +1,43 @@
+.dashboard {
+  background-color: #445644;
+  color: white;
+}
+
+.dashboard__cont {
+  display: flex;
+  min-height: calc(100vh - 2rem);
+}
+
+.dashboard__cont ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dashboard__cont .sidebar {
+  background-color: #687a68;
+  width: 240px;
+  padding: 1rem;
+}
+
+.dashboard__cont .mainbar {
+  padding: 1rem;
+  background-color: #3b463b;
+  width: 100%;
+}
+
+.dashboard__cont .sidebar li {
+  background-color: #7a957a;
+  padding: 0.5rem 1rem;
+  border-radius: 1px;
+  margin-bottom: 1px;
+  cursor: pointer;
+}
+
+.dashboard__cont .sidebar li:hover {
+  background-color: black;
+}
+
+.dashboard__cont ul li a{
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,32 @@
+.signup_full{    
+  background-color: #445644;
+  color: white;
+}
+.signup {
+    padding: 5rem 0;    
+}
+
+.signup form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 3rem 0;
+    padding-bottom: 1rem;
+}
+
+.signup form input {
+    border: 1px solid lightgrey;
+    max-width: 25rem;
+    padding: .5rem;
+}
+
+.signup form input[type="submit"] {
+    font-weight: bold;
+    text-transform: uppercase;
+    max-width: 11rem;
+    cursor: pointer;
+}
+
+.signup p.warning {
+    color: red;
+}
